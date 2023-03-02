@@ -1,4 +1,4 @@
-# Solution for the IBM Consulting Associates Program 2023 - Online Assessment Test
+# The IBM Consulting Associates Program 2023 - Online Assessment Test
 
 <hr>
 
