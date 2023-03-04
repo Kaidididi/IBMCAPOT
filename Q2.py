@@ -6,13 +6,14 @@
 
 import pandas as pd
 
-# Input
+# Define input
 data = {'id': [1,2,3,4,5],
         'isValid': ['false','true','false','true','true'],
         'errorMessage':['ERR_OOM','','ERR_TIME_OUT','','']}
 
 df_in = pd.DataFrame(data)
 
+# Build error list and isValid indicator
 error = []
 isValid = 'Yes'
 
@@ -21,7 +22,7 @@ for i in range(0,len(df_in)):
         error.append(df_in.loc[i,'errorMessage'])
         isValid = 'No'
 
-# Output
+# Print output
 print(isValid)
 print(error)
 
